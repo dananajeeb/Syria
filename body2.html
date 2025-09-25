@@ -1,0 +1,47 @@
+<HTML> 
+<HEAD>
+ <TITLE> 
+My first web form
+ </TITLE>
+ </HEAD>
+ <BODY BGCOLOR="#005a82"> 
+<div style="width: 300px; margin: 0 auto; background-color: "#005a82"; padding: 20px;">
+Symposium registration form
+ <P> 
+<form>
+    <label for="first name">First Name:</label>
+    <input type="text" first name="first_name"><br><br>
+<label for="family name">Family Name:</label>
+    <input type="text" family name="family_name"><br><br>
+<label for="email">E-Mail:</label>
+    <input type="text" email="email"><br><br>
+<label for="mobile">Mobile No:</label>
+    <input type="text" mobile="mobile"><br><br>
+<label for="sex">Sex:</label>
+    <input type="radio" name="sex" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="sex" id="female" value="female">
+    <label for="female">Female</label> <br><br>
+<label for="thesis title">Thesis title:</label>
+    <input type="text" thesis title="Thesis_title"><br><br>
+<label for="supervisor name">Supervisor Name:</label>
+    <input type="text" supervisor name="supervisor_name"><br><br>
+<label for="articl title"> Article title:</label>
+    <input type="text" article title="article_title"><br><br>
+        <label for="symposium topics">Symposium topics: </label>
+    <select name="symposium topics" id="symposium_topics">
+        <option>Select an option</option>
+        <option value="Web Application Development ">Web Application Development</option>
+        <option value="Cybersecurity">Cybersecurity</option>
+        <option value="Social Engineering">Social Engineering</option>
+<option value="Cloud Computing">Cloud Computing</option>
+        <option value="Sub-solutions for AI Technologies ">Sub-solutions for AI Technologies </option>
+        <option value="Big Data Processing ">Big Data Processing </option>
+<option value="Other topic ">Other topic </option>
+    </select><br><br>
+ <label for="fileUpload">Choose a file to upload:</label>
+  <input type="file" id="fileUpload" name="uploadedFile">   
+    <input type="submit" value="Submit">
+</form>
+</BODY>
+ </HTML>

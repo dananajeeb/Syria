@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+
+</head>
+<body class="task-login action-none">
+			<div id="layout">
+	
+
+<h1 class="voice">SVU-Webmail تسجيل الدخول</h1>
+
+<div id="layout-content" class="selected no-navbar" role="main" style="background: #005a82;"> 
+
+	<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
+
+	<img src="skins/elastic/images/logo_login.png?s=1606213886" id="logo" alt="Logo">
+	<form id="login-form" name="login-form" method="post" class="propform" action="./?_task=login">
+<input type="hidden" name="_token" value="fh3ZKf73a7KvPbdeommoVM2wBkN1WMeu">
+	<input type="hidden" name="_task" value="login"><input type="hidden" name="_action" value="login"><input type="hidden" name="_timezone" id="rcmlogintz" value="_default_"><input type="hidden" name="_url" id="rcmloginurl" value=""><table><tbody><tr><td class="title"><label for="rcmloginuser">اسم المستخدم</label>
+</td>
+<td class="input"><input name="_user" id="rcmloginuser" required size="40" autocapitalize="off" autocomplete="off" type="text"></td>
+</tr>
+<tr><td class="title"><label for="rcmloginpwd">كلمة المرور</label>
+</td>
+<td class="input"><input name="_pass" id="rcmloginpwd" required size="40" autocapitalize="off" autocomplete="off" type="password"></td>
+</tr>
+</tbody>
+</table>
+<p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit">تسجيل الدخول</button>
+</p>
+
+		<div id="login-footer" role="contentinfo">
+			SVU-Webmail
+			
+						
+		</div>
+	</form>
+</div>
+
+<noscript>
+	<p class="noscriptwarning">Warning: This webmail service requires Javascript! In order to use it please enable Javascript in your browser's settings.</p>
+</noscript>
+
+</div>
+<div id="messagestack"></div>
+<script>
+$(function() {
+rcmail.init();
+});
+</script>
+
+
+
+<script src="skins/elastic/deps/bootstrap.bundle.min.js?s=1593860330"></script>
+<script src="skins/elastic/ui.min.js?s=1593860317"></script>
+
+</body>
+</html>
